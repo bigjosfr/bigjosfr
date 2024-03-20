@@ -287,7 +287,7 @@ class MyGame(arcade.Window):
         self.camera.use()
 
         # Draw our Scene
-        self.scene.draw(pixelated=True5)
+        self.scene.draw(pixelated=True)
 
         # Activate the GUI camera before drawing GUI elements
         self.gui_camera.use()
